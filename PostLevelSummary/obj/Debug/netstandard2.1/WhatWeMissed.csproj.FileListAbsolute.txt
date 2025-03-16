@@ -1,0 +1,8 @@
+C:\Users\aaron\Development\repo.mods\WhatWeMissed\obj\Debug\netstandard2.1\WhatWeMissed.csproj.AssemblyReference.cache
+C:\Users\aaron\Development\repo.mods\WhatWeMissed\bin\Debug\netstandard2.1\WhatWeMissed.deps.json
+C:\Users\aaron\Development\repo.mods\WhatWeMissed\bin\Debug\netstandard2.1\WhatWeMissed.dll
+C:\Users\aaron\Development\repo.mods\WhatWeMissed\obj\Debug\netstandard2.1\WhatWeMissed.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\aaron\Development\repo.mods\WhatWeMissed\obj\Debug\netstandard2.1\WhatWeMissed.AssemblyInfoInputs.cache
+C:\Users\aaron\Development\repo.mods\WhatWeMissed\obj\Debug\netstandard2.1\WhatWeMissed.AssemblyInfo.cs
+C:\Users\aaron\Development\repo.mods\WhatWeMissed\obj\Debug\netstandard2.1\WhatWeMissed.csproj.CoreCompileInputs.cache
+C:\Users\aaron\Development\repo.mods\WhatWeMissed\obj\Debug\netstandard2.1\WhatWeMissed.dll

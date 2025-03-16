@@ -1,0 +1,173 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\aaron\\Development\\repo.mods\\WhatWeMissed\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{229B2227-F290-35FD-BF4F-0353F3785050}|WhatWeMissed.csproj|c:\\users\\aaron\\development\\repo.mods\\whatwemissed\\models\\levelvalues.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{229B2227-F290-35FD-BF4F-0353F3785050}|WhatWeMissed.csproj|solutionrelative:models\\levelvalues.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{229B2227-F290-35FD-BF4F-0353F3785050}|WhatWeMissed.csproj|c:\\users\\aaron\\development\\repo.mods\\whatwemissed\\patches\\levelgeneratorpatches.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{229B2227-F290-35FD-BF4F-0353F3785050}|WhatWeMissed.csproj|solutionrelative:patches\\levelgeneratorpatches.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{229B2227-F290-35FD-BF4F-0353F3785050}|WhatWeMissed.csproj|c:\\users\\aaron\\development\\repo.mods\\whatwemissed\\whatwemissed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{229B2227-F290-35FD-BF4F-0353F3785050}|WhatWeMissed.csproj|solutionrelative:whatwemissed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{229B2227-F290-35FD-BF4F-0353F3785050}|WhatWeMissed.csproj|c:\\users\\aaron\\development\\repo.mods\\whatwemissed\\patches\\valuableobjectpatches.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{229B2227-F290-35FD-BF4F-0353F3785050}|WhatWeMissed.csproj|solutionrelative:patches\\valuableobjectpatches.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{229B2227-F290-35FD-BF4F-0353F3785050}|WhatWeMissed.csproj|c:\\users\\aaron\\development\\repo.mods\\whatwemissed\\patches\\physgrabobjectimpactdetectorpatches.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{229B2227-F290-35FD-BF4F-0353F3785050}|WhatWeMissed.csproj|solutionrelative:patches\\physgrabobjectimpactdetectorpatches.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{229B2227-F290-35FD-BF4F-0353F3785050}|WhatWeMissed.csproj|c:\\users\\aaron\\development\\repo.mods\\whatwemissed\\helpers\\numberformatter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{229B2227-F290-35FD-BF4F-0353F3785050}|WhatWeMissed.csproj|solutionrelative:helpers\\numberformatter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{229B2227-F290-35FD-BF4F-0353F3785050}|WhatWeMissed.csproj|c:\\users\\aaron\\development\\repo.mods\\whatwemissed\\patches\\extractionpointpatches.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{229B2227-F290-35FD-BF4F-0353F3785050}|WhatWeMissed.csproj|solutionrelative:patches\\extractionpointpatches.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{229B2227-F290-35FD-BF4F-0353F3785050}|WhatWeMissed.csproj|c:\\users\\aaron\\development\\repo.mods\\whatwemissed\\patches\\rounddirectorpatches.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{229B2227-F290-35FD-BF4F-0353F3785050}|WhatWeMissed.csproj|solutionrelative:patches\\rounddirectorpatches.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{229B2227-F290-35FD-BF4F-0353F3785050}|WhatWeMissed.csproj|c:\\users\\aaron\\development\\repo.mods\\whatwemissed\\ui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{229B2227-F290-35FD-BF4F-0353F3785050}|WhatWeMissed.csproj|solutionrelative:ui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LevelValues.cs",
+              "DocumentMoniker": "C:\\Users\\aaron\\Development\\repo.mods\\WhatWeMissed\\Models\\LevelValues.cs",
+              "RelativeDocumentMoniker": "Models\\LevelValues.cs",
+              "ToolTip": "C:\\Users\\aaron\\Development\\repo.mods\\WhatWeMissed\\Models\\LevelValues.cs",
+              "RelativeToolTip": "Models\\LevelValues.cs",
+              "ViewState": "AgIAADcAAAAAAAAAAAArwD8AAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-16T00:00:54.415Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "UI.cs",
+              "DocumentMoniker": "C:\\Users\\aaron\\Development\\repo.mods\\WhatWeMissed\\UI.cs",
+              "RelativeDocumentMoniker": "UI.cs",
+              "ToolTip": "C:\\Users\\aaron\\Development\\repo.mods\\WhatWeMissed\\UI.cs",
+              "RelativeToolTip": "UI.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-15T23:58:39.234Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "RoundDirectorPatches.cs",
+              "DocumentMoniker": "C:\\Users\\aaron\\Development\\repo.mods\\WhatWeMissed\\Patches\\RoundDirectorPatches.cs",
+              "RelativeDocumentMoniker": "Patches\\RoundDirectorPatches.cs",
+              "ToolTip": "C:\\Users\\aaron\\Development\\repo.mods\\WhatWeMissed\\Patches\\RoundDirectorPatches.cs",
+              "RelativeToolTip": "Patches\\RoundDirectorPatches.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-15T23:33:45.861Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ExtractionPointPatches.cs",
+              "DocumentMoniker": "C:\\Users\\aaron\\Development\\repo.mods\\WhatWeMissed\\Patches\\ExtractionPointPatches.cs",
+              "RelativeDocumentMoniker": "Patches\\ExtractionPointPatches.cs",
+              "ToolTip": "C:\\Users\\aaron\\Development\\repo.mods\\WhatWeMissed\\Patches\\ExtractionPointPatches.cs",
+              "RelativeToolTip": "Patches\\ExtractionPointPatches.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-15T21:48:11.831Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "NumberFormatter.cs",
+              "DocumentMoniker": "C:\\Users\\aaron\\Development\\repo.mods\\WhatWeMissed\\Helpers\\NumberFormatter.cs",
+              "RelativeDocumentMoniker": "Helpers\\NumberFormatter.cs",
+              "ToolTip": "C:\\Users\\aaron\\Development\\repo.mods\\WhatWeMissed\\Helpers\\NumberFormatter.cs",
+              "RelativeToolTip": "Helpers\\NumberFormatter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-15T22:31:58.148Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PhysGrabObjectImpactDetectorPatches.cs",
+              "DocumentMoniker": "C:\\Users\\aaron\\Development\\repo.mods\\WhatWeMissed\\Patches\\PhysGrabObjectImpactDetectorPatches.cs",
+              "RelativeDocumentMoniker": "Patches\\PhysGrabObjectImpactDetectorPatches.cs",
+              "ToolTip": "C:\\Users\\aaron\\Development\\repo.mods\\WhatWeMissed\\Patches\\PhysGrabObjectImpactDetectorPatches.cs",
+              "RelativeToolTip": "Patches\\PhysGrabObjectImpactDetectorPatches.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-15T16:36:04.089Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ValuableObjectPatches.cs",
+              "DocumentMoniker": "C:\\Users\\aaron\\Development\\repo.mods\\WhatWeMissed\\Patches\\ValuableObjectPatches.cs",
+              "RelativeDocumentMoniker": "Patches\\ValuableObjectPatches.cs",
+              "ToolTip": "C:\\Users\\aaron\\Development\\repo.mods\\WhatWeMissed\\Patches\\ValuableObjectPatches.cs",
+              "RelativeToolTip": "Patches\\ValuableObjectPatches.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-15T13:51:05.858Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "WhatWeMissed.cs",
+              "DocumentMoniker": "C:\\Users\\aaron\\Development\\repo.mods\\WhatWeMissed\\WhatWeMissed.cs",
+              "RelativeDocumentMoniker": "WhatWeMissed.cs",
+              "ToolTip": "C:\\Users\\aaron\\Development\\repo.mods\\WhatWeMissed\\WhatWeMissed.cs",
+              "RelativeToolTip": "WhatWeMissed.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAA5wC0AAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-15T12:11:33.134Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LevelGeneratorPatches.cs",
+              "DocumentMoniker": "C:\\Users\\aaron\\Development\\repo.mods\\WhatWeMissed\\Patches\\LevelGeneratorPatches.cs",
+              "RelativeDocumentMoniker": "Patches\\LevelGeneratorPatches.cs",
+              "ToolTip": "C:\\Users\\aaron\\Development\\repo.mods\\WhatWeMissed\\Patches\\LevelGeneratorPatches.cs",
+              "RelativeToolTip": "Patches\\LevelGeneratorPatches.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAACAAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-15T13:58:01.511Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

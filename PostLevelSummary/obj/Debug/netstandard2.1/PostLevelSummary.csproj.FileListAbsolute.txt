@@ -1,0 +1,8 @@
+C:\Users\aaron\Development\repo.mods\PostLevelSummary\bin\Debug\netstandard2.1\PostLevelSummary.deps.json
+C:\Users\aaron\Development\repo.mods\PostLevelSummary\bin\Debug\netstandard2.1\PostLevelSummary.dll
+C:\Users\aaron\Development\repo.mods\PostLevelSummary\obj\Debug\netstandard2.1\PostLevelSummary.csproj.AssemblyReference.cache
+C:\Users\aaron\Development\repo.mods\PostLevelSummary\obj\Debug\netstandard2.1\PostLevelSummary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\aaron\Development\repo.mods\PostLevelSummary\obj\Debug\netstandard2.1\PostLevelSummary.AssemblyInfoInputs.cache
+C:\Users\aaron\Development\repo.mods\PostLevelSummary\obj\Debug\netstandard2.1\PostLevelSummary.AssemblyInfo.cs
+C:\Users\aaron\Development\repo.mods\PostLevelSummary\obj\Debug\netstandard2.1\PostLevelSummary.csproj.CoreCompileInputs.cache
+C:\Users\aaron\Development\repo.mods\PostLevelSummary\obj\Debug\netstandard2.1\PostLevelSummary.dll
