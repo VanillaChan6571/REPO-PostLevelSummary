@@ -6,3 +6,4 @@ C:\Users\aaron\Development\repo.mods\PostLevelSummary\obj\Debug\netstandard2.1\P
 C:\Users\aaron\Development\repo.mods\PostLevelSummary\obj\Debug\netstandard2.1\PostLevelSummary.AssemblyInfo.cs
 C:\Users\aaron\Development\repo.mods\PostLevelSummary\obj\Debug\netstandard2.1\PostLevelSummary.csproj.CoreCompileInputs.cache
 C:\Users\aaron\Development\repo.mods\PostLevelSummary\obj\Debug\netstandard2.1\PostLevelSummary.dll
+C:\Users\aaron\Development\repo.mods\PostLevelSummary\obj\Debug\netstandard2.1\PostLevelSummary.sourcelink.json
