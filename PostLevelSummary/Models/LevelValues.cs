@@ -20,7 +20,10 @@ namespace PostLevelSummary.Models
         public float ExtractedValue = 0f;
         public int ExtractedItems = 0;
 
-        public int ItemCount { get {  return Valuables.Count; } }
+        public int ItemCount
+        {
+            get { return Valuables.Count; }
+        }
 
         public void Clear()
         {
@@ -52,7 +55,11 @@ namespace PostLevelSummary.Models
 
         public void CheckValueChange(ValuableObject val)
         {
+            if (val == null) return;
+
             ValuableValue vv = ValuableValues.Find(v => v.InstanceId == val.GetInstanceID());
+
+            if (vv == null) return;
 
             if (vv.Value != val.dollarValueCurrent)
             {
@@ -65,11 +72,26 @@ namespace PostLevelSummary.Models
             }
         }
 
+// Modify ItemBroken method for better handling
         public void ItemBroken(ValuableObject val)
         {
+            if (val == null) return;
             if (val.dollarValueCurrent != 0f) return;
 
+            // First run cleanup to ensure lists are consistent
+            CleanupDestroyedObjects();
+
             ValuableValue vv = ValuableValues.Find(v => v.InstanceId == val.GetInstanceID());
+
+            // Add null check to prevent NullReferenceException
+            if (vv == null)
+            {
+                PostLevelSummary.Logger.LogDebug(
+                    $"Couldn't find valuable value for {val.name} with ID {val.GetInstanceID()}");
+                PostLevelSummary.Logger.LogDebug(
+                    "If you are getting this debug message, something has gone very horribly!");
+                return;
+            }
 
             var lostValue = vv.Value - val.dollarValueCurrent;
             PostLevelSummary.Logger.LogDebug($"Broken {val.name}!");
@@ -80,18 +102,102 @@ namespace PostLevelSummary.Models
             ValuableValues.Remove(vv);
         }
 
+        public void CleanupDestroyedObjects()
+        {
+            try
+            {
+                int beforeCount = Valuables.Count;
+
+                // Remove valuables that have been destroyed or have null references
+                Valuables.RemoveAll(v => v == null || v.IsDestroyed());
+
+                // Update ValuableValues to match only existing Valuables
+                var existingIds = Valuables.Where(v => v != null && !v.IsDestroyed())
+                    .Select(v => v.GetInstanceID())
+                    .ToList();
+
+                int removedValues = ValuableValues.RemoveAll(vv => !existingIds.Contains(vv.InstanceId));
+
+                if (beforeCount != Valuables.Count || removedValues > 0)
+                {
+                    PostLevelSummary.Logger.LogDebug(
+                        $"Cleaned up {beforeCount - Valuables.Count} destroyed valuable objects and {removedValues} value entries");
+                }
+            }
+            catch (Exception ex)
+            {
+                PostLevelSummary.Logger.LogError($"Error during cleanup: {ex.Message}");
+            }
+        }
+
+// Update Extracted method to be more robust
         public void Extracted()
         {
-            if (Valuables.Any(v => v.IsDestroyed()))
+            try
             {
-                var existing = Valuables.FindAll(v => v.GetInstanceID() != 0).Select(v => v.GetInstanceID());
-                var extracted = ValuableValues.FindAll(v => !existing.Any(id => id == v.InstanceId));
+                // First clean up any ghost objects
+                CleanupDestroyedObjects();
 
-                ExtractedValue += extracted.Select(v => v.Value).Sum();
-                ExtractedItems += extracted.Count;
+                // Check if any items have been extracted by comparing current objects with our tracking list
+                int beforeCount = ValuableValues.Count;
 
-                Valuables.RemoveAll(v => v.GetInstanceID() == 0);
-                ValuableValues.RemoveAll(v => !existing.Any(id => id == v.InstanceId));
+                // Get the IDs of valuable objects that still exist in the scene
+                HashSet<int> existingIds = new HashSet<int>();
+                foreach (var valuable in Valuables)
+                {
+                    if (valuable != null && !valuable.IsDestroyed())
+                    {
+                        existingIds.Add(valuable.GetInstanceID());
+                    }
+                }
+
+                // Find valuable values that are no longer in the scene (these were extracted)
+                List<ValuableValue> extractedValues = new List<ValuableValue>();
+                foreach (var value in ValuableValues.ToList())
+                {
+                    if (!existingIds.Contains(value.InstanceId))
+                    {
+                        extractedValues.Add(value);
+                    }
+                }
+
+                // Update extracted metrics
+                if (extractedValues.Count > 0)
+                {
+                    float totalExtractedValue = 0f;
+                    foreach (var value in extractedValues)
+                    {
+                        totalExtractedValue += value.Value;
+                        ValuableValues.Remove(value);
+                    }
+
+                    ExtractedValue += totalExtractedValue;
+                    ExtractedItems += extractedValues.Count;
+
+                    PostLevelSummary.Logger.LogDebug(
+                        $"Extracted {extractedValues.Count} items worth ${totalExtractedValue}");
+                }
+                else
+                {
+                    PostLevelSummary.Logger.LogDebug("No items detected as extracted (comparison method)");
+
+                    // Alternative detection: if our valuable list has items missing but we didn't detect extractions
+                    if (beforeCount > ValuableValues.Count)
+                    {
+                        int missingCount = beforeCount - ValuableValues.Count;
+                        PostLevelSummary.Logger.LogDebug(
+                            $"Detected {missingCount} missing valuables, considering them extracted");
+
+                        // Estimate extracted value as a proportion of total value
+                        float estimatedValue = (TotalValue / TotalItems) * missingCount;
+                        ExtractedValue += estimatedValue;
+                        ExtractedItems += missingCount;
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                PostLevelSummary.Logger.LogError($"Error during extraction calculation: {ex.Message}");
             }
         }
     }
